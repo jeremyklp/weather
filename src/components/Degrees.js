@@ -59,7 +59,7 @@ const Degrees = () => {
     return (
         <div >
           <h1 className="grades">{degrees}{isdegrees? "C°": "F°" }</h1>
-           <button onClick={buttonclick}><a href="">{isdegrees? "F°": "C°"}</a></button>
+           <button onClick={buttonclick}>{isdegrees? "F°": "C°"}</button>
         </div>
     );
 };
