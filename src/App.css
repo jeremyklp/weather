@@ -1,0 +1,83 @@
+.App {top: 0;
+  background-image: url(./img/clima.jpg);
+  background-color: #282c34;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.right{
+  display: flex;
+  text-align: left;
+  font-size: 10px;
+border-top: solid 3px #147ab4;
+  justify-content: space-between;
+}
+img{
+  width: 100px;
+}
+.uno{
+  padding-top: 20px;
+  width: 29vh;
+  display: block;
+  text-align: center;
+}
+
+#wind{
+  width: 40px;
+  height: 40px;
+} 
+#wind2{
+  margin-bottom: 30px;
+  width: 50px;
+  height: 50px;
+} 
+#degres2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  width: 60vh;
+  height: 71vh;
+  border-radius: 30px;
+  background-color: #00c3ff;
+  box-shadow: 0px 0px 10px 10px rgb(74, 189, 218);
+}
+
+
+.centercontent{
+  height: 50vh;
+}
+
+
+h1{
+  color:rgb(255, 255, 255);
+}
+
+
+.grades{
+  margin: 0;
+  font-size: 80px;
+}
+
+button{
+  border: 0;
+  background-color:#00c3ff ;
+  width: 50px;
+  height: 50px;
+  margin-right: 60px;
+}
+button a{
+  color:#00c3ff ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+  font-size: 40px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  background-color: aliceblue;
+}
+
